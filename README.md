@@ -1,4 +1,4 @@
-# blogCRUDWebsocket
+# Api server with Websocket
 ## An an HTTP server that implements an in-memory CRUD database with an endpoint to subscribe to all changes.
 
 ## Requirments:
