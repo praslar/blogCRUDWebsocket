@@ -6,6 +6,11 @@
 - So you'd have endpoints to create, read, update and delete items and then another endpoint to register a subscriber to receive all changes in real time. 
 - A change is just a JSON message indicating what item was changed and how it was changed. As in whether it was created, updated or deleted.
 
+## Goals
+1. Include at least one automated test.
+2. Adhere to Go best practices.
+3. No race conditions.
+
 ## How to run project?
 ```golang
 go run main.go
