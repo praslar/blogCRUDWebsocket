@@ -5,7 +5,6 @@
 - Create an HTTP server that implements an in-memory CRUD database with an endpoint to subscribe to all changes.
 - So you'd have endpoints to create, read, update and delete items and then another endpoint to register a subscriber to receive all changes in real time. 
 - A change is just a JSON message indicating what item was changed and how it was changed. As in whether it was created, updated or deleted.
-- 3 hours limited
 
 ## How to run project?
 ```golang
